@@ -1,0 +1,27 @@
+.index {
+	&__wrap {
+		position: relative;
+	}
+
+	canvas {
+
+	}
+
+	&__image {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	&__btn {
+		display: block;
+		width: 200px;
+		height: 40px;
+		line-height: 40px;
+		margin-top: 20px;
+		text-align: center;
+		text-transform: uppercase;
+		border: 1px solid #eee;
+		cursor: pointer;
+	}
+}
